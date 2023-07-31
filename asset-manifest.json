@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/comodo-games/static/css/main.8fed889b.css",
+    "main.js": "/comodo-games/static/js/main.8e9cfd35.js",
+    "static/media/map.jpg": "/comodo-games/static/media/map.345e08ba17c263dd8785.jpg",
+    "index.html": "/comodo-games/index.html",
+    "main.8fed889b.css.map": "/comodo-games/static/css/main.8fed889b.css.map",
+    "main.8e9cfd35.js.map": "/comodo-games/static/js/main.8e9cfd35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fed889b.css",
+    "static/js/main.8e9cfd35.js"
+  ]
+}
