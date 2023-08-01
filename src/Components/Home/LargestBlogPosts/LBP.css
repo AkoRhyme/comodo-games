@@ -1,0 +1,179 @@
+.lbp-container {
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.lbp-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
+.lbp-title h1 {
+    color: #222222;
+    font-family: "Rajdhani", sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    padding-bottom: 50px;
+    margin-top: -40px;
+    margin-bottom: 0.5rem;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+
+.lbp-title h2 {
+    letter-spacing: 5px;
+    font-size: 72px;
+    color: #3fcaff;
+    opacity: 0.1;
+    margin-top: 80px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.lbp-item {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.blog_items {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 509px;
+    padding: 20px;
+
+}
+
+
+.blog_content {
+    background: #3b328b;
+    padding: 40px 20px 50px;
+    text-align: left;
+    transition: 0.5s;
+
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+
+.blog_content a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Rajdhani", sans-serif;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.blog_content p {
+    color: #ddd;
+    font-weight: 400;
+    padding: 20px 0 40px;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    line-height: 24px;
+    font-size: 14px;
+
+}
+
+.blog_img_box {
+    overflow: hidden;
+}
+
+.lbp-date a {
+    font-size: 13px;
+    margin-right: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #ddd;
+    cursor: pointer;
+    line-height: 24px;
+
+}
+
+.img-fluid {
+    transition: 0.3s ease-in-out;
+}
+
+
+.img-fluid:hover {
+    transform: scale(1.2);
+}
+
+.blog_items:hover .title {
+    color: #358bc5;
+    color: linear-gradient(90deg, rgb(59, 194, 247) 0%, rgba(116, 230, 214, 1) 50%, rgb(127, 245, 145) 100%);
+}
+
+
+@media only screen and (max-width:992px) {
+    .lbp-container {
+        width: 100%;
+        text-align: center;
+
+    }
+
+
+    .lbp-title h1 {
+        color: #222222e2;
+        font-family: "Rajdhani", sans-serif;
+        --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        padding-bottom: 50px;
+        margin-top: -30px;
+        margin-bottom: 0.5rem;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 1.2;
+    }
+
+
+    .lbp-title h2 {
+        letter-spacing: 5px;
+        font-size: 60px;
+        color: #3fcaff;
+        opacity: 0.1;
+        margin-top: 80px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+
+
+    .lbp-item {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+    .lbp-content{
+        width: 540px;
+    }
+
+
+    .blog_items {
+        display: flex;
+        flex-direction: column;
+        width: 540px;
+        height: 587px;
+        padding: 20px;
+    
+    }
+
+    .img-fluid {
+        width: 510px;
+        height: 319px;
+    }
+    
+}

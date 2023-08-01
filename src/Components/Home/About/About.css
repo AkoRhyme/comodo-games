@@ -1,0 +1,165 @@
+.about-container {
+    max-width: 1600px;
+    height: 725px;
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-center-container {
+    max-width: 1140px;
+    height: 485px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-center {
+    background-color: rgb(55, 46, 133);
+    align-items: center;
+    display: flex;
+    max-width: 1014px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.left-continent {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 70px 0px 73px 70px;
+}
+
+.left-continent h6 {
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.left-continent h6::after {
+    content: "";
+    position: absolute;
+    background: -webkit-linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+    background: -moz-linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+    background: -o-linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+    color: #3fcaff;
+    height: 1px;
+    width: 50px;
+    bottom: -10px;
+    left: 0;
+}
+
+.left-continent h1 {
+    color: #fff;
+    line-height: 45px;
+    padding: 30px 0 30px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    text-align: left;
+}
+
+.left-continent p {
+    color: #fff;
+    font-weight: 400;
+    padding: 0 40px 40px 0;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+}
+
+.blue-center-left {
+    display: flex;
+    width: 100%;
+}
+
+.right-continent {
+    position: relative;
+    left: 100px;
+    overflow: clip;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.Ab-primary_btn {
+    display: inline-block;
+    width: 160px;
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    background-size: 200% auto;
+    padding: 0px 25px;
+    color: #222222;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 40px;
+    border-radius: 5px;
+    outline: none !important;
+    box-shadow: 0px 10px 30px rgba(163, 255, 177, 0.2);
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .3s all;
+}
+
+
+.left-continent a:hover {
+    background-position: right center;
+}
+
+
+@media screen and (max-width:992px) {
+
+    .right-continent {
+        display: none;
+    }
+
+    .left-continent {
+        display: flex;
+        width: 540px;
+        padding: 70px 73px 73px 70px;
+
+    }
+
+    .blue-center-left {
+        width: 100%;
+    }
+
+    .about-center-container {
+        height: 485px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-continent h1 {
+        color: #fff;
+        line-height: 45px;
+        padding: 30px 0 30px;
+        font-size: 30px;
+    }
+
+    .left-continent p {
+        color: #fff;
+        font-weight: 500;
+        line-height: 24px;
+        font-size: 12px;
+        font-family: "Roboto", sans-serif;
+        text-align: left;
+    }
+
+
+}

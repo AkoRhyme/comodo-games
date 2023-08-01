@@ -1,0 +1,230 @@
+nav {
+    max-width: 100%;
+    background-color: rgb(44,33,114);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 12px;
+    top:0;
+    position: sticky;
+    transition: .3s ease padding;
+    z-index: 15;
+}
+
+
+
+.nav_left{
+    cursor: pointer;
+}
+
+.nav_center{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: "Rajdhani", sans-serif;
+    cursor: pointer;
+    padding-right: 30px;
+}
+
+
+
+
+
+.nav_center_btn {
+    font-size: 12px;
+    display: flex;
+    max-width: 60%;
+    margin-left: 80px;
+    
+}
+
+
+.nav_center_btn a:hover:active{
+    color: rgb(81,200,243);
+    transition: .1ms;
+
+}
+
+
+
+
+.nav_right{
+    font-family: "Roboto", sans-serif;
+    box-shadow: 0px 10px 30px rgba(163, 255, 177, 0.2);
+    letter-spacing: 1px;
+    border-radius: 50px;
+    min-width: 135px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    justify-content: center;
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    background-size: 200% auto;
+    transition: .3s ease all;
+    position: static;
+}
+
+
+.nav_right:hover{
+    color: #22195e;
+    background-position: right center;
+    
+}
+
+
+.nav_center_btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_right a{
+    color: #22195e;
+    text-decoration: none;
+}
+
+
+.dropdown_menu{
+    float: none;
+    font-size: 1rem;
+    list-style: none;
+    z-index: 1000;
+    position: absolute;
+    top: 120%;
+    min-width: 200px;
+    text-align: left;
+    opacity: 0;
+    transition: all 400ms ease-in;
+    visibility: hidden;
+    display: block;
+    border: none;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.6);
+
+}
+
+.nav_drop_link{
+    font: "Roboto", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    color: #222222 !important;
+    padding: 0px 30px;
+    transition: all 150ms linear;
+    display: block;
+    font: "Roboto", sans-serif;
+    text-transform: uppercase;
+    line-height: 45px;
+    transition: all 150ms linear;
+    display: block;
+    font-size: 12px;
+}
+
+.submenu ul{
+    margin-right: 45px;
+    position: absolute;
+    min-width: 200px;
+    opacity: 0;
+    transition: all 300ms ease-in;
+    visibility: hidden;
+    display: block;
+    border: none;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.4);
+    border: none;
+}
+
+.submenu:hover ul{
+    top: 100%;
+    opacity: 1;
+    visibility: initial;
+    background: #fff;
+
+}
+
+
+.nav_drop_link:hover{
+    display: block;
+    float: none;
+    transition: all 0.4s linear;
+    
+
+}
+
+.nav1_center_btn a{
+    line-height: 45px;
+    color: #222222 ;
+    padding: 0px 40px;
+    transition: all 150ms linear;
+    display: block;
+    margin-right: 0px;
+    font:  "Roboto", sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ededed;
+
+}
+
+.nav1_center_btn:hover  {
+    background-image: -webkit-linear-gradient(0deg, #4dabff 0%, #62ddff 100%);
+}
+
+.nav1_center_btn:hover a{
+    color: #fff !important; 
+}
+
+#tablet {
+    display:none;
+}
+
+
+
+
+
+@media screen and (max-width: 992px){
+    nav{width: 100%;
+        background: #000;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size:10px;
+        position: sticky;
+        margin-right: 30px;
+        transition: .3s ease padding;
+    }
+    .nav_center_btn{
+        display: none;
+    }
+
+    .nav_left{
+        display: flex;
+        cursor: pointer;
+        padding-left: 50px;
+        margin-left: 30px;
+
+    }
+    .nav_right{
+        display: none;
+    
+    }
+
+    #tablet{
+        display: flex;
+        padding: 0 30px;
+
+
+    }
+    #tablet i{
+        color: #fff;
+        font-size: 25px;
+        cursor: pointer;
+        border: none;
+        cursor: pointer;
+        padding-right: 50px;
+    }
+}
+
+
+
+

@@ -1,0 +1,187 @@
+.upcom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.upcom-gm {
+    max-width: 1600px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.upcom-gm-txt {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.upcom-gm-txt h1 {
+    color: #222222;
+    font-family: "Rajdhani", sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    padding-bottom: 50px;
+    margin-top: -25px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.upcom-gm-txt h2 {
+    letter-spacing: 5px;
+    font-size: 72px;
+    color: #3fcaff;
+    opacity: 0.1;
+    margin-top: 80px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.newgames {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.new_games_item {
+    display: inline;
+    margin: 10px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+}
+
+.upcoming_title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50%;
+}
+
+.new_games_item h3 {
+    justify-content: center;
+    background: rgba(44, 37, 93, 0.8);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.new_games_item h3 a {
+    color: white;
+    text-decoration: none;
+}
+
+.upcom_hover:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.new_games_item:hover .upcoming_title h3 {
+    background: linear-gradient(90deg, rgb(59, 194, 247) 0%, rgba(116, 230, 214, 1) 50%, rgb(127, 245, 145) 100%);
+}
+
+.new_games_item:hover h3 a {
+    color: #22195e;
+}
+
+@media screen and (max-width:992px) {
+
+    .upcom {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .upcom-gm-txt h1 {
+        color: #222222;
+        font-family: "Rajdhani", sans-serif;
+        --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        padding-bottom: 50px;
+        margin-top: -35px;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+
+    .upcom-gm-txt h2 {
+        letter-spacing: 5px;
+        font-size: 50px;
+        color: #3fcaff;
+        opacity: 0.1;
+        margin-top: 80px;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .newgames {
+        display: flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: flex-start;
+        
+    }
+
+    .upcoming_title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .new_games_item {
+        display: inline;
+        margin: 10px;
+        text-align: center;
+        line-height: 24px;
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        color: #777777;
+    }
+    .new_games_item{
+        width: 240px ;
+        height: 319px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: unset;
+    }
+
+
+    .new_games_item h3 {
+        justify-content: center;
+        background: rgba(44, 37, 93, 0.8);
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+    }
+    .upcoming_title {
+        display: flex;
+    }
+
+    .upcoming_title h3{
+        width: 240px;
+        justify-content: center;
+        background: rgba(44, 37, 93, 0.8);
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+        position: relative;
+        left: 100%;
+        bottom: 30px;
+    }
+
+    .upcom_hover{
+        display: flex;
+    }
+}

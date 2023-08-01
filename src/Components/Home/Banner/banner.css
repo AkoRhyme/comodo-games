@@ -1,0 +1,261 @@
+.banner {
+    max-width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+
+.banner-container {
+    max-width: 100%;
+    height: 985px;
+    background: url(https://preview.colorlib.com/theme/comodo/img/banner/home-banner.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner_bg {
+    width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+.banner_right {
+    max-width: 42% !important;
+    text-align: left;
+    color: #fff;
+    box-sizing: border-box;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.banner_right h2 {
+    font-size: 58px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.banner_right p {
+    width: 470px;
+    height: 72px;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.banner_left {
+    vertical-align: middle;
+    align-self: center;
+    max-width: 50%;
+    height: 523px;
+    padding-left: 40px;
+}
+
+.banner_txt {
+    box-sizing: content-box;
+    display: flex;
+    padding: 46px 8px 28px;
+}
+
+.banner_alert {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.fa-circle-play {
+    position: relative;
+    box-sizing: content-box;
+    display: inline-block;
+    font-size: 50px;
+    width: 32px;
+    height: 44px;
+    border-radius: 50%;
+    padding: 46px 8px 18px 28px;
+    cursor: pointer;
+}
+
+.fa-circle-play span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    border-left: 16px solid #000000;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+
+.fa-circle-play::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #3fcaff 0%, #a4ffb0 100%);
+    z-index: 0;
+    -webkit-animation: pulse-border 2000ms ease-out infinite;
+    -moz-animation: pulse-border 2000ms ease-out infinite;
+    -o-animation: pulse-border 2000ms ease-out infinite;
+    animation: pulse-border 2000ms ease-out infinite;
+}
+
+.fa-circle-play::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: linear-gradient(90deg, #3fcaff 0%, #a4ffb0 100%);
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 1;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+@media screen and (max-width: 992px) {
+    .banner {
+        max-width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+
+    .banner-container {
+        min-height: 500px;
+        position: relative;
+        bottom: 60px;
+    
+    }
+    
+    .banner_bg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        gap: 30px;
+    }
+
+    .banner_right {
+        max-width: 70% !important;
+        break-inside: none;
+        text-align: left;
+        color: #fff;
+        box-sizing: border-box;
+        line-height: 24px;
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+
+    .banner_right h2 br{
+        display: none;
+
+    }
+    .banner_right h2 {
+        font-size:  30px;
+        font-weight: bold;
+        line-height: 40px;   
+
+    }
+    .banner_left {
+       display: none;
+    }
+
+    .banner_txt {
+        box-sizing: content-box;
+        display: flex;
+    }
+    .banner_right p {
+        width: 470px;
+        height: 72px;
+        color: #fff;
+        font-size: 16px;
+    }
+
+}
+/* 
+@media screen and (max-width: 550px) {
+    .banner {
+        display: none;
+    }
+
+    .tablet-mode {
+        height: 70vh;
+        background: url(https://preview.colorlib.com/theme/comodo/img/banner/home-banner.jpg.webp);
+        background-repeat: no-repeat;
+        padding-top: 120px;
+    }
+
+    .banner_bg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .banner_left img {
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .banner_right {
+        text-align: center;
+        color: #fff;
+        margin-left: 70px;
+        box-sizing: border-box;
+        font-size: 15px;
+        font-family: "Roboto", sans-serif;
+        --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+
+    .banner_right h2 {
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: "Rajdhani", sans-serif;
+        line-height: 36px;
+        margin-bottom: 10px;
+        font-weight: 200px;
+    }
+
+    .banner_txt {
+        box-sizing: content-box;
+        display: flex;
+        height: 44px;
+        padding: 46px 8px 18px 28px;
+    }
+} */

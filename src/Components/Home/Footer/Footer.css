@@ -1,0 +1,133 @@
+.footer{
+    background: linear-gradient(to right, #231a60 0%, #3c338d 51%, #231a60 100%);
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.Fcontainer{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer_list{
+    width: 1140px;
+    height: 332px;
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+
+}
+
+.footer_comtainer{
+    text-align: left;
+    width: 285px;
+    height: 331px;
+    position: relative;
+    left: 30px;
+    padding-right: 15px;
+    padding-left: 60px;
+
+}
+
+.footer_title {
+    margin-bottom: 40px;
+    font-family: Rajdhani, sans-serif;
+
+}
+
+.footer_title h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    }
+
+
+.footer_container ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 50px;
+
+}
+
+.footer_container ul li {
+    display: block;
+    padding-bottom: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+
+}
+
+.footer_container ul li:hover{
+    color: #007bff;
+}
+
+
+.footer_widget{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgba(245, 222, 179, 0.1);
+    padding: 30px;
+    width: 1000px;
+    justify-content: space-between;
+
+}
+
+.widget_left{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: left;
+    max-width: 1200px;
+}
+
+.widget_left p{
+    margin: 0;
+    color: #fff;
+    margin-left: -15px;
+
+}
+
+
+.widget_left a{
+    color: #3fcaff;
+}
+
+
+
+.widget_right{
+    position: relative;
+    max-width: 1140px;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    justify-content: center;
+}
+
+
+.social_widget{
+    text-align: right;
+    position: relative;
+    margin-right: -15px;
+}
+
+.social_widget a{
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    background: #4c4588;
+    margin-left: 6px;
+    display: inline-block;
+    text-align: center;
+}

@@ -1,0 +1,190 @@
+.Son-container {
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 100%);
+    padding: 68px 0 60px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.Scontainer {
+    max-width: 1140px;
+    height: 76px;
+    display: flex;
+
+
+}
+
+.newsletter_inner h1 {
+    width: 570px;
+    height: 45px;
+    color: #22195e;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+
+
+.newsletter_inner p {
+    text-align: left;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #777777;
+}
+
+
+
+.Scontainer_right {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: right;
+    margin-top: 15px;
+}
+
+.Sinput-group {
+    position: relative;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+
+.Sinput-group input {
+    padding: 12px 30px;
+    width: 540px;
+    height: 55px;
+    border: transparent;
+    border-radius: 45px;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+
+.Scontainer_btn {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    border-radius: 40px;
+    cursor: pointer;
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+    background-size: 200% auto;
+    padding: 0px 35px;
+    color: #222222;
+    letter-spacing: 1px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 45px;
+    box-shadow: 0px 10px 30px rgba(163, 255, 177, 0.2);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: italic;
+    border: none;
+    transition: .5s all;
+}
+
+.Scontainer_btn:hover {
+    background-position: right center;
+}
+
+
+@media only screen and (max-width:992px) {
+
+
+    .Scontainer {
+        max-width: 992px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-content: space-between;
+      
+
+    }
+
+    .Scontainer_left{
+        width: 510px;
+        align-items: center;
+        
+     
+    }
+
+    .Snewsletter_inner{
+        height: 65px;
+        display: flex;
+    
+    }
+    .newsletter_inner{
+        text-align: center;
+        display: flex;
+        position: inherit;
+        text-align: center;
+        left: 100px;
+        align-items: center;
+    }
+
+    .newsletter_inner{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .newsletter_inner h1 {
+        width: 570px;
+        height: 45px;
+        color: #22195e;
+        font-size: 25px;
+        line-height: 1.2;
+        text-align: left;
+        margin-bottom: 10px;
+        text-align: center;
+    
+    }
+
+    .newsletter_inner p {
+        text-align: left;
+        line-height: 24px;
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        color: #777777;
+    }
+    .Sinput-group input {
+        padding: 20px 30px;
+        width: 540px;
+        height: 55px;
+        border: transparent;
+        border-radius: 45px;
+        outline: none;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+
+    .Scontainer {
+        max-width: 100%;
+        height: 150px;
+        display: flex;
+    
+    
+    }
+
+    
+
+
+    }

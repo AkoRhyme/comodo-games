@@ -1,0 +1,69 @@
+
+.container_fs{
+    background-image: url('https://preview.colorlib.com/theme/comodo/img/testimonial_bg.png.webp');
+    max-width: 100%;
+    height: 510px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container_fs img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+
+
+.funnyspencer-item{
+    max-width: 100%;
+    height: 270px;
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.funnyspencer-item h4{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    display: block;
+
+}
+
+.funnyspencer-item img{
+    width: auto;
+    justify-content: center;
+}
+
+.list{
+    display: flex;
+    margin-bottom: 40px;
+    background-color: yellow;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;    
+}
+
+.funnyspencer-txt p{
+    max-width: 555px;
+    text-align: center;
+    height: 73px;
+    padding-top: 30px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    color: #fff;
+    font-weight: 500;
+
+}
